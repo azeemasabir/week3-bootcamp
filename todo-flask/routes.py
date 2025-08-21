@@ -6,7 +6,7 @@ import requests, time
 # cache for weather
 cache = {}
 CACHE_TTL = 300   # 5 minutes
-API_KEY = "your_api_key_here"   # 👈 replace with your OpenWeatherMap API key
+API_KEY = "9a1ddb18b9ecc250f5d5129b753890c9"   # 👈 replace with your OpenWeatherMap API key
 
 
 def init_routes(app):
